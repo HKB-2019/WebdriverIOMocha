@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "verify user can login successfully",
+      "uid" : "a9c3da8e8d719d63",
+      "parentUid" : "1a85855463aca3ea10b8fe0fcb3372b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599600824344,
+        "stop" : 1599600849083,
+        "duration" : 24739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.83" ]
+    } ],
+    "uid" : "1a85855463aca3ea10b8fe0fcb3372b8"
+  }, {
+    "name" : "Forgot Password",
+    "children" : [ {
+      "name" : "verify user reset password successfully",
+      "uid" : "2d58a83e0aa00928",
+      "parentUid" : "99fda7de123f0538db8794b198223a14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599600937416,
+        "stop" : 1599600971180,
+        "duration" : 33764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.83" ]
+    } ],
+    "uid" : "99fda7de123f0538db8794b198223a14"
+  }, {
+    "name" : "Register",
+    "children" : [ {
+      "name" : "verify user can register",
+      "uid" : "14adcdbd173d4c7e",
+      "parentUid" : "7522d7fd156c97e2b7c63a1d7ac6af48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599602372992,
+        "stop" : 1599602415301,
+        "duration" : 42309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.83" ]
+    } ],
+    "uid" : "7522d7fd156c97e2b7c63a1d7ac6af48"
+  } ]
+}

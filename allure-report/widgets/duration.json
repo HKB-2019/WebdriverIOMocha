@@ -1,0 +1,31 @@
+[ {
+  "uid" : "2d58a83e0aa00928",
+  "name" : "verify user reset password successfully",
+  "time" : {
+    "start" : 1599600937416,
+    "stop" : 1599600971180,
+    "duration" : 33764
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9c3da8e8d719d63",
+  "name" : "verify user can login successfully",
+  "time" : {
+    "start" : 1599600824344,
+    "stop" : 1599600849083,
+    "duration" : 24739
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14adcdbd173d4c7e",
+  "name" : "verify user can register",
+  "time" : {
+    "start" : 1599602372992,
+    "stop" : 1599602415301,
+    "duration" : 42309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

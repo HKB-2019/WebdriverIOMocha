@@ -1,0 +1,58 @@
+{
+  "uid" : "d747a7d9fc5ccbab",
+  "name" : "verify user reset password successfully",
+  "fullName" : "Forgot Password.verify user reset password successfully",
+  "historyId" : "b96a9f4c5b7bf5ef459f27ebfa6131c2",
+  "time" : {
+    "start" : 1599600344942,
+    "stop" : 1599600405011,
+    "duration" : 60069
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. The execution in the test \"Forgot Password verify user reset password successfully\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\automation\\Javascript\\webdriverio-test\\test\\specs\\ForgotPassword.js)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Forgot Password verify user reset password successfully\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\automation\\Javascript\\webdriverio-test\\test\\specs\\ForgotPassword.js)\n                    at Test.Runnable._timeoutError (C:\\automation\\Javascript\\webdriverio-test\\node_modules\\mocha\\lib\\runnable.js:426:10)\n                    at Timeout.<anonymous> (C:\\automation\\Javascript\\webdriverio-test\\node_modules\\mocha\\lib\\runnable.js:238:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Forgot Password"
+  }, {
+    "name" : "testClass",
+    "value" : "Forgot Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user reset password successfully"
+  }, {
+    "name" : "package",
+    "value" : "Forgot Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.83"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d747a7d9fc5ccbab.json",
+  "parameterValues" : [ "chrome-85.0.4183.83" ]
+}

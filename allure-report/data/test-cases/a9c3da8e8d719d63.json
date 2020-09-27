@@ -1,0 +1,103 @@
+{
+  "uid" : "a9c3da8e8d719d63",
+  "name" : "verify user can login successfully",
+  "fullName" : "Login.verify user can login successfully",
+  "historyId" : "cf246ed28885e88b87617c26864035ff",
+  "time" : {
+    "start" : 1599600824344,
+    "stop" : 1599600849083,
+    "duration" : 24739
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user can login successfully"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.83"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a870f9c6cd23f71e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Login verify user can login successfully\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\automation\\Javascript\\webdriverio-test\\test\\specs\\LoginTest.js)",
+      "time" : {
+        "start" : 1599600674909,
+        "stop" : 1599600735342,
+        "duration" : 60433
+      }
+    }, {
+      "uid" : "f50591d3a27bb88d",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#email\" because element wasn't found",
+      "time" : {
+        "start" : 1599600564557,
+        "stop" : 1599600601762,
+        "duration" : 37205
+      }
+    }, {
+      "uid" : "9089aa0933c50903",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Login verify user can login successfully\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\automation\\Javascript\\webdriverio-test\\test\\specs\\LoginTest.js)",
+      "time" : {
+        "start" : 1599600344946,
+        "stop" : 1599600405061,
+        "duration" : 60115
+      }
+    }, {
+      "uid" : "d90b89096c5357e1",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Login verify user can login successfully\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\automation\\Javascript\\webdriverio-test\\test\\specs\\LoginTest.js)",
+      "time" : {
+        "start" : 1599169739044,
+        "stop" : 1599169799288,
+        "duration" : 60244
+      }
+    }, {
+      "uid" : "a78ed42a99a73d51",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Login verify user can login successfully\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\automation\\Javascript\\webdriverio-test\\test\\specs\\LoginTest.js)",
+      "time" : {
+        "start" : 1599169024400,
+        "stop" : 1599169084580,
+        "duration" : 60180
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9c3da8e8d719d63.json",
+  "parameterValues" : [ "chrome-85.0.4183.83" ]
+}

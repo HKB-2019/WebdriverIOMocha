@@ -1,0 +1,58 @@
+{
+  "uid" : "9089aa0933c50903",
+  "name" : "verify user can login successfully",
+  "fullName" : "Login.verify user can login successfully",
+  "historyId" : "cf246ed28885e88b87617c26864035ff",
+  "time" : {
+    "start" : 1599600344946,
+    "stop" : 1599600405061,
+    "duration" : 60115
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. The execution in the test \"Login verify user can login successfully\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\automation\\Javascript\\webdriverio-test\\test\\specs\\LoginTest.js)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Login verify user can login successfully\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\automation\\Javascript\\webdriverio-test\\test\\specs\\LoginTest.js)\n                    at Test.Runnable._timeoutError (C:\\automation\\Javascript\\webdriverio-test\\node_modules\\mocha\\lib\\runnable.js:426:10)\n                    at Timeout.<anonymous> (C:\\automation\\Javascript\\webdriverio-test\\node_modules\\mocha\\lib\\runnable.js:238:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user can login successfully"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.83"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9089aa0933c50903.json",
+  "parameterValues" : [ "chrome-85.0.4183.83" ]
+}

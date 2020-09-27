@@ -1,0 +1,85 @@
+{
+  "uid" : "2d58a83e0aa00928",
+  "name" : "verify user reset password successfully",
+  "fullName" : "Forgot Password.verify user reset password successfully",
+  "historyId" : "b96a9f4c5b7bf5ef459f27ebfa6131c2",
+  "time" : {
+    "start" : 1599600937416,
+    "stop" : 1599600971180,
+    "duration" : 33764
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Forgot Password"
+  }, {
+    "name" : "testClass",
+    "value" : "Forgot Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user reset password successfully"
+  }, {
+    "name" : "package",
+    "value" : "Forgot Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.83"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d747a7d9fc5ccbab",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Forgot Password verify user reset password successfully\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\automation\\Javascript\\webdriverio-test\\test\\specs\\ForgotPassword.js)",
+      "time" : {
+        "start" : 1599600344942,
+        "stop" : 1599600405011,
+        "duration" : 60069
+      }
+    }, {
+      "uid" : "d09000912f287901",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Forgot Password verify user reset password successfully\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\automation\\Javascript\\webdriverio-test\\test\\specs\\ForgotPassword.js)",
+      "time" : {
+        "start" : 1599169739023,
+        "stop" : 1599169799156,
+        "duration" : 60133
+      }
+    }, {
+      "uid" : "21f5ee1eef57acc5",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Forgot Password verify user reset password successfully\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\automation\\Javascript\\webdriverio-test\\test\\specs\\ForgotPassword.js)",
+      "time" : {
+        "start" : 1599169024420,
+        "stop" : 1599169084492,
+        "duration" : 60072
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d58a83e0aa00928.json",
+  "parameterValues" : [ "chrome-85.0.4183.83" ]
+}

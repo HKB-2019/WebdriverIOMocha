@@ -1,0 +1,100 @@
+{
+  "uid" : "14adcdbd173d4c7e",
+  "name" : "verify user can register",
+  "fullName" : "Register.verify user can register",
+  "historyId" : "911084fed9588fae3f018299b8078f77",
+  "time" : {
+    "start" : 1599602372992,
+    "stop" : 1599602415301,
+    "duration" : 42309
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Register"
+  }, {
+    "name" : "testClass",
+    "value" : "Register"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user can register"
+  }, {
+    "name" : "package",
+    "value" : "Register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.83"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1d7482a84cf66652",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599602267339,
+        "stop" : 1599602303883,
+        "duration" : 36544
+      }
+    }, {
+      "uid" : "1653b42b8905403d",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Register verify user can register\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\automation\\Javascript\\webdriverio-test\\test\\specs\\RegisterTest.js)",
+      "time" : {
+        "start" : 1599602066431,
+        "stop" : 1599602130650,
+        "duration" : 64219
+      }
+    }, {
+      "uid" : "63cbdef2093463a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599601093267,
+        "stop" : 1599601136079,
+        "duration" : 42812
+      }
+    }, {
+      "uid" : "485f2417a4860eb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599169844019,
+        "stop" : 1599169891917,
+        "duration" : 47898
+      }
+    }, {
+      "uid" : "b2eb09f797793032",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#id_gender1\" because element wasn't found",
+      "time" : {
+        "start" : 1599169135701,
+        "stop" : 1599169187805,
+        "duration" : 52104
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14adcdbd173d4c7e.json",
+  "parameterValues" : [ "chrome-85.0.4183.83" ]
+}
